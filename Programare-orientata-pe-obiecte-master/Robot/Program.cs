@@ -13,6 +13,7 @@ namespace Robot
             GiantKillerRobot robot = new GiantKillerRobot();
             IPlanet earth = new Earth(10, 10);
 
+
             int targetIndex = 0;
             robot.Target = earth.Inhabitants[targetIndex++];
             robot.EyeLaserIntensity = Intensity.Kill;

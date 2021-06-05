@@ -9,5 +9,6 @@ namespace Robot.Models
     public class Utility
     {
         static public Random Rng = new Random();
+
     }
 }
