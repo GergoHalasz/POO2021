@@ -9,6 +9,7 @@ namespace Big_Ball_Game
 
         public override Color Color => Color.Black;
 
+
         public static void InitializeBalls()
         {
             for (int i = 0; i < Count; i++)

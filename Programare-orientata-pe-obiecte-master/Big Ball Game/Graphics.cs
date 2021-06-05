@@ -7,6 +7,7 @@ namespace Big_Ball_Game
         internal static int MAX_WIDTH { get; set; }
         internal static int MAX_HEIGHT { get; set; }
 
+
         public static void Initialize(Size formSize)
         {
             MAX_WIDTH = formSize.Width;

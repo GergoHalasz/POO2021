@@ -15,6 +15,7 @@ namespace Big_Ball_Game
                 Balls.Add(new RepellentBall());
         }
 
+
         public static void CollisionWith(List<RegularBall> regularBalls) => RegularBall.CollisionWith(Balls);
 
         public static void CollisionWith(List<RepellentBall> repellentBalls)

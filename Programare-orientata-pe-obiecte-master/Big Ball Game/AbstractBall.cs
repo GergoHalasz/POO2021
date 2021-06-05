@@ -11,6 +11,7 @@ namespace Big_Ball_Game
         public float X { get; set; }
         public float Y { get; set; }
 
+
         public virtual float DX { get; set; } = new[] { -10, Graphics.MAX_WIDTH + 10 }[Rnd.Next(2)];
         public virtual float DY { get; set; } = new[] { -10, Graphics.MAX_HEIGHT + 10 }[Rnd.Next(2)];
 
