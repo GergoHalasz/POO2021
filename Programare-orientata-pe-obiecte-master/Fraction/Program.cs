@@ -10,6 +10,7 @@ namespace Fraction
     {
         private static void Main(string[] args)
         {
+
             var a = new Fraction(2, 3);
             var b = new Fraction(5, 9);
 
