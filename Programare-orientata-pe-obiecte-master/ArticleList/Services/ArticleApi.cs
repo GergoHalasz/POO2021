@@ -30,6 +30,7 @@ namespace ArticleList.Services
                 }
 
                 throw new Exception(response.ReasonPhrase);
+
             }
         }
     }

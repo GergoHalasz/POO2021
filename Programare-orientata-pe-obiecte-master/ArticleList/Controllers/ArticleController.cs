@@ -12,6 +12,7 @@ namespace ArticleList.Controllers
     {
         public ArticleApi ArticleService { get; }
         public NewsSource NewsSource;
+
         private string NewsSourceRoute { get; set; }
         Dictionary<NewsSource, string> NewsSourceMap = new Dictionary<NewsSource, string>
         {

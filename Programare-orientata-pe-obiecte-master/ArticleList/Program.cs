@@ -18,6 +18,7 @@ namespace ArticleList
             var articles = await articleController.GetArticles();
 
             Console.WriteLine(string.Join('\n', articles.Select(article => article.Description)));
+
         }
     }
 }
