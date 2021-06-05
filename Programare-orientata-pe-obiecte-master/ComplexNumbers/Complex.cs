@@ -13,6 +13,7 @@ namespace ComplexNumbers
         public Complex(double real, double imaginary = 0)
         {
             this.real = real;
+
             this.imaginary = imaginary;
         }
 

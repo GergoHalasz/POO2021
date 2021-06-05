@@ -14,6 +14,7 @@ namespace ComplexNumbers
             Console.WriteLine(c2);
             Console.WriteLine(c3);
 
+
             Console.WriteLine(c1.Abs());
             Console.WriteLine(c1.Phase());
             Console.WriteLine(c1.Pow(5));
