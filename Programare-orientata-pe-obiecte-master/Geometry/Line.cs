@@ -15,6 +15,7 @@
         {
             p1 = new Point(x1, y1);
             p2 = new Point(x2, y2);
+
         }
 
         public override string ToString() => $"[{p1}, {p2}]";

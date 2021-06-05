@@ -11,6 +11,7 @@ namespace Geometry
 
         public static Stack<Point> History { get; }
 
+
         public static void Undo() => History.Pop();
 
         public Point() : this(0.0, 0.0) { }

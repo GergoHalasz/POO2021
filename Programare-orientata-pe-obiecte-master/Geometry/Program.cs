@@ -14,6 +14,7 @@ namespace Geometry
             Console.WriteLine($"p1 = {p1}");
             Console.WriteLine($"p2 = {p2}");
 
+
             Console.WriteLine($"Distanta de la punctul {p3} la origine este {p3.DistanceToOrigin()}");
             Console.WriteLine($"Distanta de la punctul {p3} la origine este {p3.DistanceTo(p2).ToString("#.##")}");
 
